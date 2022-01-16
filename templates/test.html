@@ -34,20 +34,21 @@
     <div class="center">
         <form action="/form" method="POST">
             <div class="row">
-                <div class="col">
+                <!-- <div class="col">
                     <input type="color" class="form-control form-control-color col" id="exampleColorInput" value='{{colorCode}}' title="Choose your color" name='color'>
-                </div>
-                <div class="col">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example col" name='pattern'>
-                        <option {%if pattern == 'single color'%}selected{%endif%} value="single color">Single Colour</option>
-                        <option {%if pattern == 'blinking'%}selected{%endif%} value="blinking">Blinking lights</option>
-                        <option {%if pattern == 'slow fade'%}selected{%endif%} value="slow fade">Slow Fade</option>
-                        <option {%if pattern == 'absolute shaker'%}selected{%endif%} value="absolute shaker">Absolute Shaker</option>
+                </div> -->
+                    <select class="form-select form-select-lg mb-3 col" aria-label=".form-select-lg example col" name='pattern'>
+                        <option {%if pattern == 'white'%}selected{%endif%} value="white">White</option>
+                        <option {%if pattern == 'black'%}selected{%endif%} value="black">Black</option>
+                        <option {%if pattern == 'jump3'%}selected{%endif%} value="jump3">Jump 3</option>
+                        <option {%if pattern == 'jump7'%}selected{%endif%} value="jump7">Jump 7</option>
+                        <option {%if pattern == 'fade3'%}selected{%endif%} value="fade3">Fade 3</option>
+                        <option {%if pattern == 'fade7'%}selected{%endif%} value="fade7">Fade 7</option>
+                        <option {%if pattern == 'pomodoro'%}selected{%endif%} value="pomodoro">Pomodoro</option>
+                        <option {%if pattern == 'blueorange'%}selected{%endif%} value="blueorange">Blue & Orange</option>
+                        <!-- <option {%if pattern == 'absolute shaker'%}selected{%endif%} value="absolute shaker">Absolute Shaker</option> -->
                       </select>
-                </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">Change Colour</button>
-                </div>
+                    <button type="submit" class="btn btn-primary col">Submit</button>
             </div>  
         </form>
     </div>

@@ -10,7 +10,7 @@ h1 {
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -18,4 +18,13 @@ h1 {
   margin: 0;
   padding: 0 0;
   width: 1rem;
+}
+
+select {
+  width: 25rem;
+  margin: auto;
+}
+
+button {
+  margin: auto;
 }
