@@ -1,0 +1,93 @@
+@font-face {
+    font-family: juice;
+    src: url(resources/JUICE-Regular.ttf);
+}
+
+body {
+    background-color: #e80c3f;
+    font-family: juice;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: #d7e0de;
+}
+
+
+#menu {
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.collapsible {
+    background-color: #d7e0de;
+    color: black;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: juice;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+.collapsible:hover {
+    background-color: #90A9A4;
+}
+
+.active {
+    background-color: #A2B7B2;
+}
+
+.collapsibleContent {
+    max-height: 0;
+    padding: 0 18px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #eeeeee;
+}
+
+.hiddenMenu {
+    
+}
+
+#colourMenu {
+    
+}
+
+.menuButton {
+    display: inline-block;
+    padding: 15px;
+}
+
+.menuButton>button{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.colourButton>button{
+    border: 1px solid black;
+    transition: border-radius 0.2s ease-out;
+}
+
+.colourButton>button:hover{
+    border-radius: 20px;
+}
+
+.patternButton>button{
+    border: 1px solid black;
+    background-size: contain;
+    background-color: black;
+    transition: border-width 0.2s ease-out;
+}
+
+.patternButton>button:hover {
+    border-width: 10px;
+}

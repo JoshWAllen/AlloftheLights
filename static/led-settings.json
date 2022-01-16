@@ -1,0 +1,62 @@
+{
+    "colours": [
+        {
+            "name": "teal",
+            "value": "#4deeea"
+        },
+        {
+            "name": "yellow",
+            "value": "#ffe700"
+        },
+        {
+            "name": "lime",
+            "value": "#74ee15"
+        },
+        {
+            "name": "violet",
+            "value": "#f000ff"
+        },
+        {
+            "name": "blue",
+            "value": "#001eff"
+        },
+        {
+            "name": "red",
+            "value": "#ff1e00"
+        },
+        {
+            "name": "orange",
+            "value": "#ff9e00"
+        },
+        {
+            "name": "white",
+            "value": "#ffffff"
+        },
+        {
+            "name": "green",
+            "value": "#00bf33"
+        },
+        {
+            "name": "black",
+            "value": "#000000"
+        }
+    ],
+    "patterns": [
+        {
+            "name": "colour fade",
+            "imageFile": "colour_fade.png"
+        },
+        {
+            "name": "fade on and off",
+            "imageFile": "fade_in_and_out.png"
+        },
+        {
+            "name": "colour strobe",
+            "imageFile": "colour_strobe.png"
+        },
+        {
+            "name": "strobe on and off",
+            "imageFile": "strobe_on_and_off.png"
+        }
+    ]
+}
